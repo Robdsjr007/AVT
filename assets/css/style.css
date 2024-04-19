@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'XiaoWei';
+    src: url('../vendor/font/ZCOOL_XiaoWei/ZCOOLXiaoWei-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'Dancing';
+    src: url('../vendor/font/Dancing_Script/DancingScript-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+
+    font-family: 'Imperial';
+    src: url('../vendor/font/Imperial_Script/ImperialScript-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+/* Declaração de família das fontes: */
+
+/*
+Dancing Script:
+    font-family: 'Dancing', Times, serif;
+
+XiaoWei:
+    font-family: 'XiaoWei', Times, serif;
+
+Imperial:
+    font-family: 'Imperial', Times, serif;
+*/
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
