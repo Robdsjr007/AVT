@@ -1,64 +1,237 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Avance Tecidos</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Ícone -->
+
+  <link rel="icon" type="image/x-icon" href="./assets/img/logo.ico">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Fim do ícone -->
+
+  <!-- Fonte -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+
+  <!-- Fim da fonte -->
+
+  <title>Avance Tecidos</title>
 </head>
+
 <body>
-    <div class="container">
-        
-<!-- Início da Sessão HOME -->
+  <div class="container">
 
-        <section id="home">
-            <header></header>
-            <main></main>
-            <footer></footer>
-        </section>
+    <!-- Início da Sessão HOME -->
 
-<!-- Fim da sessão HOME -->
+    <section id="home">
+      <main>
+        <div class="info">
+          <a href="./pages/sobre.html" class="link-sobre">Sobre</a>
+          <img src="./assets/img/logo.png" alt="Logo Avance Tecidos" />
+          <h1>AVT</h1>
+          <p>Lorem ipsum dolor sit amet, minim veniam.</p>
+          <a href="#produtos" class="link-produtos">Produtos</a>
+        </div>
+        <div class="para-imagem">
+          <img src="./assets/img/OIP.jpg" alt="Variedade de Tecidos amontoados" />
+        </div>
+      </main>
+    </section>
 
-<!-- Início da Sessão MVV -->
+    <!-- Fim da sessão HOME -->
 
-        <section id="mvv">
-            <header></header>
-            <main></main>
-            <footer></footer>
-        </section>
+    <!-- Início da Sessão MVV -->
 
-<!-- Fim da sessão MVV -->
+    <section id="mvv" style="background-image: url('./assets/img/background-mvv.png');">
+      <header>
+        <h1>Objetivos</h1>
+      </header>
+      <main>
+        <div class="container-cards">
+          <div class="card card-missao">
+            <div class="card-image">
+              <img src="assets/img/amico.png" class="missao" alt="Missão" />
+            </div>
+            <div class="info">
+              <h2>Missão</h2>
+              <p>Fornecer produtos têxteis de qualidade excepcional, atendendo às necessidades e expectativas dos nossos
+                clientes, garantindo excelência no serviço e contribuindo para o desenvolvimento sustentável da
+                indústria têxtil.</p>
+            </div>
+          </div>
+          <div class="card card-visao">
+            <div class="card-image">
+              <img src="assets/img/bro.png" class="visao" alt="Visão" />
+            </div>
+            <div class="info">
+              <h2>Visão</h2>
+              <p>Ser reconhecida como líder no mercado de venda de tecidos, destacando-se pela inovação, pela variedade
+                e qualidade dos produtos, e pelo compromisso com a satisfação do cliente.</p>
+            </div>
+          </div>
+          <div class="card card-valores">
+            <div class="card-image">
+              <img src="assets/img/brofamily.png" class="valores" alt="Valores" />
+            </div>
+            <div class="info">
+              <h2>Valores</h2>
+              <p>Ser reconhecida como líder no mercado de venda de tecidos, destacando-se pela inovação, pela variedade
+                e qualidade dos produtos, e pelo compromisso com a satisfação do cliente.</p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
 
-<!-- Início da Sessão Produtos -->
+    <!-- Fim da sessão MVV -->
 
-        <section id="produtos">
-            <header></header>
-            <main></main>
-            <footer></footer>
-        </section>
+    <!-- Início da Sessão Produtos -->
 
-<!-- Fim da sessão Produtos -->
+    <section id="produtos" style="background-image: url('./assets/img/background-produtos.png');">
+      <header>
+        <h1>Produtos</h1>
+      </header>
+      <main>
+        <div class="container-cards">
+          <div class="card card-produto1">
+            <header class="header-card">
+              <h2>Helanca</h2>
+              <p>Tecido versátil</p>
+            </header>
+            <article class="conteudo-card">
+              <img class="tecidos" src="./assets/img/helanca.jpg" alt="tecido Helanca" />
+            </article>
+            <footer class="footer-card">
+              <p>R$24,90</p><strong>kg</strong>
+              <img src="./assets/img/icone.png" alt="coraçãozinho" />
+            </footer>
+          </div>
+          <div class="card card-produto2">
+            <header class="header-card">
+              <h2>Dry-fit liso</h2>
+              <p>Tecido de roupas de academia</p>
+            </header>
+            <article class="conteudo-card">
+              <img class="tecidos" src="./assets/img/dry-fit_liso.jpg" alt="tecido dry-fit liso" />
+            </article>
+            <footer class="footer-card">
+              <p>R$32,90</p><strong>kg</strong>
+              <img src="./assets/img/icone.png" alt="coraçãozinho" />
+            </footer>
+          </div>
+          <div class="card card-produto3">
+            <header class="header-card">
+              <h2>Dry-fit grão de arroz</h2>
+              <p>Tecido de roupas de academia</p>
+            </header>
+            <article class="conteudo-card">
+              <img class="tecidos" src="./assets/img/dry-fit_grao.jpg" alt="tecido dry-fit grão de arroz" />
+            </article>
+            <footer class="footer-card">
+              <p>R$34,90</p><strong>kg</strong>
+              <img src="./assets/img/icone.png" alt="coraçãozinho" />
+            </footer>
+          </div>
+        </div>
+      </main>
+    </section>
 
-<!-- Início da Sessão Testemunhos -->
+    <!-- Fim da sessão Produtos -->
 
-        <section id="testemunhos">
-            <header></header>
-            <main></main>
-            <footer></footer>
-        </section>
+    <!-- Início da Sessão Testemunhos -->
 
-<!-- Fim da sessão Testemunhos -->
+    <section id="testemunhos" style="background-image: url('./assets/img/background-mvv.png');">
+      <header>
+        <h1>Testemunhos</h1>
+      </header>
+      <main>
+        <article class="card-test-container1">
+          <div class="card-test">
+            <div class="header">
+              <img src="./assets/img/aspas.png" alt="aspas" />
+            </div>
+            <div class="main">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+              <img src="./assets/img/avatar.png" alt="Foto de perfil" />
+            </div>
+            <div class="footer">
+              <h2>Robson Junior</h2>
+            </div>
+          </div>
+        </article>
+        <article class="card-test-container2">
+          <div class="card-test">
+            <div class="header">
+              <img src="./assets/img/aspas.png" alt="aspas" />
+            </div>
+            <div class="main">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+              <img src="./assets/img/avatar.png" alt="Foto de perfil" />
+            </div>
+            <div class="footer">
+              <h2>Robson Junior</h2>
+            </div>
+          </div>
+          <div class="card-test">
+            <div class="header">
+              <img src="./assets/img/aspas.png" alt="aspas" />
+            </div>
+            <div class="main">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+              <img src="./assets/img/avatar.png" alt="Foto de perfil" />
+            </div>
+            <div class="footer">
+              <h2>Robson Junior</h2>
+            </div>
+          </div>
+        </article>
+      </main>
+    </section>
 
-<!-- Início da Sessão Contato -->
 
-        <section id="contato">
-            <header></header>
-            <main></main>
-            <footer></footer>
-        </section>
+    <!-- Fim da sessão Testemunhos -->
 
-<!-- Fim da sessão Contato -->
+    <!-- Início da Sessão Contato -->
 
-    </div>
+    <section id="contato">
+      <header class="header-contato">
+        <p>Entre em contato</p>
+      </header>
+      <main class="main-contato">
+        <form>
+          <p>Você pode entrar em contato conosco a qualquer momento via <a class="email">hi@untitledui.com</a></p>
+          <div class="fields">
+            <label for="name" >Nome:</label>
+            <input type="text" autocomplete="username" name="name" placeholder="Seu nome"/>
+            <label for="email">Email:</label>
+            <input type="email" autocomplete="email" name="email" placeholder="seuemail@company.com"/>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" autocomplete="tel" name="telefone" placeholder="+55 (11) 00000-0000"/>
+            <label for="help">Como podemos te ajudar?</label>
+            <textarea type="text" name="help" rows="10" cols="33"
+              placeholder="Eu gostaria de saber se..."></textarea>
+          </div>
+          <button type="submit" class="enviar">Enviar</button>
+        </form>
+        <article class="maps-container">
+            <iframe style="border:0; width: 80%; height: 80%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1563846509976!2d-46.657876588811!3d-23.562826261558147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8dc125527%3A0x723ba07f4fe31aa3!2sUniversidade%20Cruzeiro%20do%20Sul%20-%20Campus%20Paulista!5e0!3m2!1spt-BR!2sbr!4v1714192485360!5m2!1spt-BR!2sbr" frameborder="0" allowfullscreen></iframe>
+            <!-- End Google Maps -->
+        </article>
+      </main>
+    </section>
+
+    <!-- Fim da sessão Contato -->
+
+  </div>
 </body>
+
 </html>
