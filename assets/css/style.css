@@ -18,9 +18,6 @@
 Dancing Script:
     font-family: 'Dancing', Times, serif;
 
-XiaoWei:
-    font-family: 'XiaoWei', Times, serif;
-
 Imperial:
     font-family: 'Imperial', Times, serif;
 */
@@ -43,6 +40,21 @@ body {
   height: 100%;
   background-color: lightblue;
   overflow-y: visible;
+}
+
+.whatsapp-icon {
+  position: fixed;
+  right: 25px;
+  bottom: 10px;
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  transition: ease-in 0.3s;
+}
+
+.whatsapp-icon:hover {
+  transform: scale(1.1);
+  transition: ease-out 0.3s;
 }
 
 section {
@@ -115,24 +127,9 @@ main {
 
 }
 
-#home main .info .link-sobre {
-  font-family: 'Roboto';
-  text-decoration: none;
-  font-size: 30px;
-  margin-left: -70%;
-  margin-top: 20px;
-  transition: ease-in 0.3s;
-  animation: esquerda 1s;
-}
-
-#home main .info .link-sobre:hover {
-  color: #706100;
-  transition: ease-out 0.3s;
-}
-
 #home main .info img {
-  width: 350px;
-  height: 353px;
+  width: 330px;
+  height: 350px;
   animation: esquerda 1s;
 }
 
@@ -147,13 +144,14 @@ main {
 #home main .info p {
   text-align: center;
   font-family: 'Dancing', Times, serif;
-  margin-block: 30px;
+  margin-block: 10px;
   font-size: 28px;
   width: 300px;
+  min-height: 112px;
   animation: esquerda 1.5s;
 }
 
-#home main .info .link-produtos {
+#home main .info .button {
   font-family: 'Roboto';
   text-decoration: none;
   background-color: #2532AE;
@@ -167,12 +165,29 @@ main {
   align-content: center;
   transition: ease-in 0.3s;
   animation: esquerda 1.5s;
+  border: none;
 }
 
-#home main .info .link-produtos:hover {
+#home main .info .link-produtos {
+  margin-right: 5px;
+}
+
+#home main .info .link-sobre {
+  margin-left: 5px;
+}
+
+
+#home main .info .button:hover {
   background-color: #706100;
   transition: ease-out 0.5s;
-  transform: scale(1.1);
+  transform: scale(1.07);
+}
+
+#home main .info .buttons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-inline: 10%;
 }
 
 
@@ -186,7 +201,7 @@ main {
 
 #home main .para-imagem img {
   height: 100vh;
-  width: 100%
+  width: 100%;
 }
 
 @keyframes esquerda {
@@ -231,6 +246,10 @@ main {
 
 /* Início da sessão MVV */
 
+#mvv {
+  background-image: url('../img/background-mvv.png');
+}
+
 #mvv header h1 {
   color: white;
   animation: cima 1s;
@@ -274,6 +293,11 @@ main {
 /* Fim da sessão MVV */
 
 /* Início da sessão Produtos */
+
+#produtos {
+  background-image: url('../img/background-produtos.png');
+}
+
 
 .card .header-card {
   display: flex;
@@ -320,13 +344,14 @@ main {
 .card .footer-card {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
   height: 20%;
 }
 
 .card .footer-card p {
   margin-right: 0;
-  width: 97px;
+  width: auto;
   font-size: 25px;
   font-family: 'Roboto';
   font-weight: bold;
@@ -355,6 +380,11 @@ main {
 /* Fim da sessão Produtos */
 
 /* Início da sessão Testemunhos */
+
+#testemunhos {
+  background-image: url('../img/background-mvv.png');
+}
+
 
 #testemunhos header h1 {
   color: white;
@@ -487,6 +517,7 @@ section main form .fields label {
 }
 
 section main form .fields input, textarea {
+  font-family: 'Roboto';
   width: 100%;
   margin-bottom: 20px;
   border: 0.5px solid #afb1b69f;
@@ -498,8 +529,12 @@ section main form .fields textarea {
   height: auto !important;
 }
 
-section main form .fields input::placeholder {
+section main form .fields input,textarea {
   padding-left: 10px;
+}
+
+section main form .fields textarea {
+  padding-top: 5px;
 }
 
 
